@@ -1,0 +1,33 @@
+<!--
+Assignment: Project 3 - The Oregon Trail
+File:       proj3.html
+Class:      CMSC433 (Summer 2019)
+Group:      Timothy Coffelt, Katherine Lehew, Jake Klemp
+Description:
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.3.min.js" ></script>
+<link rel="stylesheet" type="text/css" href="proj3.css">
+</head>
+
+<body class="intro">
+<audio id="gameMusic">
+	<source src="OregonTrailMusic.mp3" type="audio/mpeg">
+</audio>
+<div class="mainPage">
+<img src="OregonTrailTitleTop.png">
+<div id="titlePageOptions">
+<h1>Thank you for playing!</h1>
+<h4>Press "a" to play again.</h4>
+<input name="userInput" type="text" autofocus="" class="cursor" id="choice" onkeydown="getChoice(this)">
+</div>
+<img src="OregonTrailTitleBottom.png">
+<script src="proj3.js"></script>
+</div>
+</body>
+
+</html>
